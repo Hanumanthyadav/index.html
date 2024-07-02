@@ -1,0 +1,38 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+.photo-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.text {
+    position: absolute;
+    color: white;
+    text-align: center;
+}
+
+h1, p {
+    margin: 0;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+}
